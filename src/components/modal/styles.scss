@@ -1,0 +1,210 @@
+.modal-container h1:first-child {
+    text-align: center;
+    font-size: 32px;
+    margin-top: 0;
+}
+
+.modal-container h2:first-child {
+    text-align: center;
+    font-size: 32px;
+    margin-top: 0;
+}
+
+.modal-container h3:first-child {
+    text-align: center;
+    font-size: 32px;
+    margin-top: 0;
+}
+
+.modal-container h4:first-child {
+    text-align: center;
+    font-size: 32px;
+    margin-top: 0;
+}
+
+.modal-container h5:first-child {
+    text-align: center;
+    font-size: 32px;
+    margin-top: 0;
+}
+
+.modal-container h6:first-child {
+    text-align: center;
+    font-size: 32px;
+    margin-top: 0;
+}
+
+.modal-container {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        letter-spacing: -0.014em;
+        line-height: 38px;
+        margin-top: 1.01em;
+        font-size: 26px;
+        font-weight: bold;
+        margin-bottom: -0.27em;
+        color: #3b3c40;
+
+        a {
+            text-decoration: underline;
+            color: inherit;
+        }
+    }
+
+    figure {
+        margin-top: 40px;
+        clear: both;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    p {
+        letter-spacing: -0.003em;
+        line-height: 32px;
+        margin-top: 1.56em;
+        margin-bottom: -0.46em;
+        word-break: break-word;
+        color: #3b3c40;
+
+        strong {
+            font-weight: bold;
+            color: #3b3c40;
+        }
+
+        a {
+            text-decoration: underline;
+            color: inherit;
+
+            strong {
+                font-weight: bold;
+                color: #3b3c40;
+            }
+        }
+    }
+
+    strong {
+        font-weight: bold;
+        color: #3b3c40;
+    }
+
+    blockquote {
+        margin-top: 1.56em;
+        margin-left: -20px;
+        padding-left: 23px;
+        box-shadow: rgb(36, 36, 36) 3px 0px 0px 0px inset;
+        color: #3b3c40;
+        font-style: italic;
+
+        > p {
+            letter-spacing: -0.003em;
+            line-height: 32px;
+            margin-top: 2.14em;
+            font-size: 20px;
+            font-style: italic;
+            word-break: break-word;
+            color: #3b3c40;
+
+            strong {
+                font-weight: bold;
+                color: #3b3c40;
+            }
+        }
+    }
+
+    figcaption {
+        max-width: 728px;
+        margin-top: 10px;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        font-size: 14px;
+        line-height: 20px;
+        color: #3b3c40;
+    }
+
+    ul {
+        padding: 0;
+        list-style: disc;
+        margin-left: 30px;
+        list-style-image: none;
+
+        li {
+            margin-top: 1.72em;
+            letter-spacing: 0;
+            line-height: 24px;
+            margin-bottom: -0.31em;
+            color: #3b3c40;
+
+            strong {
+                font-weight: bold;
+                color: #3b3c40;
+            }
+        }
+    }
+
+    ol {
+        padding: 0;
+        list-style: decimal;
+        list-style-image: none;
+
+        li {
+            margin-top: 0.94em;
+            letter-spacing: -0.003em;
+            line-height: 32px;
+            list-style-type: decimal;
+            padding-left: 0px;
+            margin-left: 30px;
+            margin-bottom: -0.46em;
+            color: #3b3c40;
+
+            strong {
+                font-weight: bold;
+                color: #3b3c40;
+            }
+        }
+    }
+}
+
+.modal-container p strong {
+    font-weight: bold;
+    color: #3b3c40;
+}
+
+.modal-container p a {
+    text-decoration: underline;
+    color: inherit;
+
+    strong {
+        font-weight: bold;
+        color: #3b3c40;
+    }
+}
+
+.modal-container p a strong {
+    font-weight: bold;
+    color: #3b3c40;
+}
+
+.modal-container blockquote p {
+    letter-spacing: -0.003em;
+    line-height: 32px;
+    margin-top: 2.14em;
+    font-size: 20px;
+    font-style: italic;
+    word-break: break-word;
+    color: #3b3c40;
+
+    strong {
+        font-weight: bold;
+        color: #3b3c40;
+    }
+}
+
+.modal-container blockquote p strong {
+    font-weight: bold;
+    color: #3b3c40;
+}
