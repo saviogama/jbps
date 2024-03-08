@@ -55,11 +55,11 @@ export default function Home() {
                         enterFrom="opacity-0"
                         enterTo="opacity-100"
                     >
-                        <h1 className="mx-52 my-20 text-center text-6xl font-bold text-primary-gray-darkest max-md:my-10 max-md:text-4xl max-sm:mx-4 max-sm:text-2xl">
+                        <h1 className="mx-52 my-12 text-center text-6xl font-bold text-primary-gray-darkest max-md:my-10 max-md:text-4xl max-sm:mx-4 max-sm:text-2xl">
                             Experiências que conectam, mudam e inspiram.
                         </h1>
                     </Transition>
-                    <section className="mx-12 mb-10 max-md:mb-5">
+                    <section className="mx-12 max-md:mb-5">
                         <Transition
                             show
                             appear
@@ -78,14 +78,14 @@ export default function Home() {
                                             onClick={() =>
                                                 setModal(item.content)
                                             }
-                                            className="relative mb-20 cursor-pointer max-md:mb-10 max-sm:mb-5"
+                                            className="relative mb-12 cursor-pointer max-md:mb-10 max-sm:mb-5"
                                         >
                                             <img
                                                 className="h-128 w-256 rounded-lg object-cover max-md:h-96 max-sm:h-44"
                                                 src={item.thumbnail}
                                                 alt={item.title}
                                             />
-                                            <span className="absolute inset-0 z-10 flex items-center justify-center rounded-lg bg-primary-gray-dark bg-opacity-95 px-24 text-center text-2xl font-bold text-primary-white opacity-0 duration-300 hover:opacity-100">
+                                            <span className="absolute inset-0 z-10 flex items-center justify-center rounded-lg bg-primary-gray-dark bg-opacity-95 px-24 text-center text-2xl font-bold text-primary-white opacity-0 duration-300 hover:opacity-100 max-sm:px-8 max-sm:text-lg">
                                                 {item.title}
                                             </span>
                                         </div>
